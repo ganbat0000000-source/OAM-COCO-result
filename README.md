@@ -1,4 +1,4 @@
-# OAM to COCO Y0 Automator (Lite)
+# OAM to COCO Y0 Automation
 
 This is a simplified clone of the original app with only 4 pages:
 
@@ -6,11 +6,6 @@ This is a simplified clone of the original app with only 4 pages:
 2. `Ranked Data`
 3. `COCO Y0 Estimation`
 4. `Result`
-
-Removed from this lite version:
-- Excluded OAM
-- Estimation 2
-- History/Database storage
 
 ## Flow
 
@@ -70,3 +65,4 @@ This app submits to:
 - `https://miau.my-x.hu/myx-free/coco/beker_y0.php`
 
 Internet access is required for COCO runs.
+
