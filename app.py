@@ -18,7 +18,7 @@ from src.ui_display import compact_number, format_dataframe_for_display, inject_
 
 
 st.set_page_config(page_title="OAM -> COCO Y0 Automation", layout="wide")
-inject_app_theme("OAM -> COCO Y0 Automation)")
+inject_app_theme("OAM -> COCO Y0 Automation")
 
 
 def _direction_label(direction: int) -> str:
@@ -556,4 +556,5 @@ elif st.session_state.current_page == "result":
         st.markdown('<div class="block-title">Estimation Graph</div>', unsafe_allow_html=True)
         chart_df = result_df.set_index("Object")[["Estimation"]]
         st.bar_chart(chart_df, use_container_width=True)
+
 
